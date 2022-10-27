@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Music app</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="music-container">
+
+            <div class="img-container">
+                <div class="dot"></div>
+                <img src="img/Attention.png" id="cover" alt="Album cover" />
+            </div>
+
+            <audio src="music/1.The Entrance.mp3" id="audio"></audio>
+
+            <div class="track-info">
+                <h4 id="title"></h4>
+                <div class="progress-container">
+                    <div class="progress"></div>
+                </div>
+                <div class="navigation">
+                    <button id="prev" class="action-btn">
+                        <i class="fas fa-backward"></i>
+                    </button>
+        
+                    <button id="play" class="action-btn action-btn-big">
+                        <i class="fas fa-play"></i>
+                    </button>
+        
+                    <button id="next" class="action-btn">
+                        <i class="fas fa-forward"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+<!-- <div class="music-container">
+          <div class="music-info">
+            <h4 id="title"></h4>
+            <div class="progress-container">
+              <div class="progress"></div>
+            </div>
+          </div>
+
+          <audio src="music/1.The Entrance.mp3" id="audio"></audio>
+
+          <div class="img-container">
+            <img src="img/Attention.png" id="cover" alt="music-cover" />
+          </div>
+
+          <div class="navigation">
+            <button id="prev" class="action-btn">
+              <i class="fas fa-backward"></i>
+            </button>
+
+            <button id="play" class="action-btn action-btn-big">
+              <i class="fas fa-play">Play</i>
+            </button>
+
+            <button id="next" class="action-btn">
+              <i class="fas fa-forward"></i>
+            </button>
+          </div>
+        </div> -->
